@@ -1,0 +1,32 @@
+body {
+	height: 100%;
+	font-family: Georgia, Bangla;
+	background-image: url('bangladeshi_flag.gif');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#play,
+#pause {
+	float: center;
+	width: 30px;
+}
+#play:hover,
+#pause:hover {
+	cursor: pointer;
+}
+#pause {
+	display: none;
+}
+img {
+  border-radius: 50%;
+}
+.sect1 {
+		padding-top:30vh;
+}
